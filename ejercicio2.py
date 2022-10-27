@@ -1,25 +1,20 @@
-"""Crea una clase llamada Alumno que tenga los atributos nombre y nota
-Crea el constructor de la clase. Añadir en el constructor un print para informar de que el alumno se ha creado con éxito
-Crear un método llamado calificación que imprima por pantalla si el alumno ha aprobado o suspendido en base a su nota
-Experimentación (0,5 Puntos)
-Crea algunos alumnos
-Prueba a ejecutar el método calificación de cada objeto que has creado"""
+"""Recorre el listado del ejemplo y realiza las siguientes operaciones:
 
-class alumno ():
-    def __init__ (self,nombre,nota)
-        self.nombre = nombre
-        self.nota = nota 
+[18, 50, 210, 80, 145, 333, 70, 30]
+Imprimir el número en caso de que sea múltiplo de 10 y menor que 200
+Parar el programa si llega a un número mayor que 300
+Organizar la lista mediante el método de ordenamiento merge sort
+Dada la lista anterior y un valor 145 devolver el índice de 145 en la lista si 145 está en la lista, y −1 si 145 no está en la lista
+Adjuntar archivoNinguno archivo selec.
+"""
 
-    def __str__(self):
-        return "el alumno,{},se ha creado con éxito".format( self.nombre = nombre)
 
-        if (self.nota > 4):
-            print ("el alumno ha aprobado")
-        else: 
-            print ("el alumno ha suspendido")
-        
-from alumno import*
-alumno1 = alumno(Alejandra, 8)
-alumno2 = alumno(Pablo,5)
-alumno3 = alumno(Sofia,3)
+def recorrerlista (self, lista)
+    for i in lista:
+        if i%10 == 0 and i<200
+        print(i)
+
+        elif:
+            i > 300
+            break
 
