@@ -1,0 +1,40 @@
+class hash_table: 
+    def __init__(self):
+        self.table = [None] * 93
+    
+    # Función hash
+    def Hfuncion(self,value):
+        key = 0
+        for i in range(0,len(value)):
+            key += ord(value[i])
+        return key % 93
+
+    def Insert(self, value): # Metodo para ingresar elementos
+        hash = self.Hfuncion(value)
+        if self.table[hash] is None:
+            self.table[hash] = value
+   
+    def Search(self,value): # Metodo para buscar elementos
+        hash = self.Hfuncion(value);
+        if self.table[hash] is None:
+            return None
+        else:
+            return hex(id(self.table[hash]))
+  
+    def Remove(self,value): # Metodo para eleminar elementos
+        hash = self.Hfuncion(value);
+        if self.table[hash] is None:
+            print("No hay elementos con ese valor", value)
+        else:
+            print("Elemento con valor", value, "eliminado")
+            self.table[hash] is None;
+        
+        
+H = hash_table()
+H.Insert("A")
+H.Insert("B")
+H.Insert("C")
+
+
+
+

@@ -20,8 +20,8 @@ class alumno ():
             print ("el alumno ha suspendido")
         
 from alumno import*
-alumno1 = alumno(Alejandra, 8)
-alumno2 = alumno(Pablo,5)
-alumno3 = alumno(Sofia,3)
+alumno1 = alumno("Alejandra", 8)
+alumno2 = alumno("Pablo",5)
+alumno3 = alumno("Sofia",3)
 
 

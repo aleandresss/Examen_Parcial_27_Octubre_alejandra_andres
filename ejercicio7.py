@@ -1,3 +1,11 @@
+"""
+Implementar sobre el TDA polinomio desarrollado previamente las siguientes actividades:
+•  restar;
+•  dividir;
+•  eliminar un término;
+•  determinar si un término existe en un polinomio.
+"""
+
 print("Ingrese los valores:")
 print("|M00 M01 M02 M03 M04|")
 print("|M10 M11 M12 M13 M14|")
@@ -34,11 +42,19 @@ M43 = float(input('Ingrese el valor M02: '))
 M44 = float(input('Ingrese el valor M02: '))
 
 
+def restar():
 
-det= (M00*M11*M22*M33*M44) + (M10*M21*M02) + (M20*M01*M12) - (M02*M11*M20) - (M12*M21*M00) - (M22*M01*M10)
 
-if det!=0:
-   print ("El determinante de esta matriz es: ",det)
+def dividir():
 
-else:
-    print ("El determinante de esta matriz es cero")
+def eliminar():
+    
+
+def buscar(): 
+    for termino in (len(matriz)):
+        if termino in matriz:
+            print("el termino esta eb la matriz")
+        else:
+            print("el termino no esta en la matriz")
+
+
