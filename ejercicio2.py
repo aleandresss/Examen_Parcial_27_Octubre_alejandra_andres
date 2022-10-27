@@ -9,12 +9,32 @@ Adjuntar archivoNinguno archivo selec.
 """
 
 
-def recorrerlista (self, lista)
+def recorrerlista (lista)
+    
     for i in lista:
-        if i%10 == 0 and i<200
+        if (i%10) == 0 and i<200
         print(i)
+        else: 
+            None
 
         elif:
             i > 300
             break
+
+lista = sorted(orden, key = por_orden, prioridad = True)
+lista.sort(lista, orden)
+orden = [1, 2, 3, 4, 5, 6, 7, 8]
+lista = [18, 50, 210, 80, 145, 333, 70, 30]
+
+def devolverindice(lista,valor)
+    for i in lista:
+        if valor in lista:
+            lista.append(valor)
+        else:
+            lista.append(-1)
+    return lista
+
+
+lista= [18, 50, 210, 80, 145, 333, 70, 30]
+valor=145
 
